@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive negative or zero
- * Description: using the mai function for
- * this program prints blah blah blah
- * Return: 0
+ * main - entry point
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	char ch;
+	char c;
 
-	for (ch = '0'; ch <= 9; ch++)
-		putchar(ch);
+	for(c = 'z'; c >= a; c--)
+		putchar(c);
 	putchar("\n");
-	return (0);
+	return(0);
 }
