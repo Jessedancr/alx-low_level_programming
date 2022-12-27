@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	char c;
+	int n;
 
-	for(c = 'z'; c >= a; c--)
-		putchar(c);
-	putchar("\n");
-	return(0);
+	for (n = 48; n < 58; n++)
+		putchar(n);
+	putchar('\n');
+	return (0);
 }
